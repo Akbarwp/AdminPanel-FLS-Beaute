@@ -1,0 +1,139 @@
+.dataTables_info, .dataTables_length{
+    text-align: left;
+}
+.roundimg {
+    border-radius: 50%;
+}
+.badge.badge-danger{
+    top:-12px;
+    left:-4px;
+    border: solid 2px #3f3e3e;
+    border-radius: 5px;
+    font-family:Helvetica;
+}
+.dtHorizontalExampleWrapper {
+max-width: 600px;
+margin: 0 auto;
+}
+a:hover{
+    text-decoration:none;
+}
+.labelclass{
+    color:black;
+    text-align:left;
+    font-weight:500;
+}
+.col{
+    padding-right: 0;
+}
+p,h4{
+    margin: 0;
+}
+.invert { 
+    filter: invert(100%); 
+}
+body{
+    background-color: #d3cdcd;
+}
+.container{
+    padding:8px;
+}
+.col-sm s{
+    flex-grow:0;
+}
+
+/* navbar */
+.list-group-item{
+    background-color:#d3cdcd;
+    padding:8;
+}
+#profile{
+width: 62px;
+height: 62px;
+background: #3f3e3e;
+border-radius: 45px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: stretch;
+    width:100%;
+}
+#sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #d3cdcd;
+    color: #fff;
+    transition: all 0.3s;
+}
+#sidebar.active{
+    margin-left: -250px;
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #d3cdcd;
+    color: #3f3e3e;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #3f3e3e;
+}
+
+#sidebar ul p {
+    color: #3f3e3e;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color:#3f3e3e;
+}
+#sidebar ul li.list-group-item :hover {
+    background: #9b9797;
+    transition: all 0.3s;
+} 
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #3f3e3e;
+    background: #d3cdcd;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #d3cdcd;
+}
+a[data-toggle="collapse"]{
+    position: relative;
+}
+.dropdown-toggle::after{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+@media(max-width:768px){
+    #sidebar{
+        margin-left: -250px;
+    }
+    #sidebar.active{
+        margin-left:0;
+    }
+}
+
+/* back button */
+button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+button:focus {
+    border: none;
+}
